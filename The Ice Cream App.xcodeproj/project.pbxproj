@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		52333ACD2D93B99B00F482A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52333AB32D93B99900F482A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52333ABA2D93B99900F482A2;
+			remoteInfo = "The Ice Cream App";
+		};
+		52333AD72D93B99B00F482A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52333AB32D93B99900F482A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52333ABA2D93B99900F482A2;
+			remoteInfo = "The Ice Cream App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52333ABB2D93B99900F482A2 /* The Ice Cream App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Ice Cream App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52333ACC2D93B99B00F482A2 /* The Ice Cream AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Ice Cream AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52333AD62D93B99B00F482A2 /* The Ice Cream AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Ice Cream AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52333ABD2D93B99900F482A2 /* The Ice Cream App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "The Ice Cream App";
+			sourceTree = "<group>";
+		};
+		52333ACF2D93B99B00F482A2 /* The Ice Cream AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "The Ice Cream AppTests";
+			sourceTree = "<group>";
+		};
+		52333AD92D93B99B00F482A2 /* The Ice Cream AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "The Ice Cream AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52333AB82D93B99900F482A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52333AC92D93B99B00F482A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52333AD32D93B99B00F482A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52333AB22D93B99900F482A2 = {
+			isa = PBXGroup;
+			children = (
+				52333ABD2D93B99900F482A2 /* The Ice Cream App */,
+				52333ACF2D93B99B00F482A2 /* The Ice Cream AppTests */,
+				52333AD92D93B99B00F482A2 /* The Ice Cream AppUITests */,
+				52333ABC2D93B99900F482A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52333ABC2D93B99900F482A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52333ABB2D93B99900F482A2 /* The Ice Cream App.app */,
+				52333ACC2D93B99B00F482A2 /* The Ice Cream AppTests.xctest */,
+				52333AD62D93B99B00F482A2 /* The Ice Cream AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52333ABA2D93B99900F482A2 /* The Ice Cream App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52333AE02D93B99B00F482A2 /* Build configuration list for PBXNativeTarget "The Ice Cream App" */;
+			buildPhases = (
+				52333AB72D93B99900F482A2 /* Sources */,
+				52333AB82D93B99900F482A2 /* Frameworks */,
+				52333AB92D93B99900F482A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52333ABD2D93B99900F482A2 /* The Ice Cream App */,
+			);
+			name = "The Ice Cream App";
+			packageProductDependencies = (
+			);
+			productName = "The Ice Cream App";
+			productReference = 52333ABB2D93B99900F482A2 /* The Ice Cream App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52333ACB2D93B99B00F482A2 /* The Ice Cream AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52333AE32D93B99B00F482A2 /* Build configuration list for PBXNativeTarget "The Ice Cream AppTests" */;
+			buildPhases = (
+				52333AC82D93B99B00F482A2 /* Sources */,
+				52333AC92D93B99B00F482A2 /* Frameworks */,
+				52333ACA2D93B99B00F482A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52333ACE2D93B99B00F482A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52333ACF2D93B99B00F482A2 /* The Ice Cream AppTests */,
+			);
+			name = "The Ice Cream AppTests";
+			packageProductDependencies = (
+			);
+			productName = "The Ice Cream AppTests";
+			productReference = 52333ACC2D93B99B00F482A2 /* The Ice Cream AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52333AD52D93B99B00F482A2 /* The Ice Cream AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52333AE62D93B99B00F482A2 /* Build configuration list for PBXNativeTarget "The Ice Cream AppUITests" */;
+			buildPhases = (
+				52333AD22D93B99B00F482A2 /* Sources */,
+				52333AD32D93B99B00F482A2 /* Frameworks */,
+				52333AD42D93B99B00F482A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52333AD82D93B99B00F482A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52333AD92D93B99B00F482A2 /* The Ice Cream AppUITests */,
+			);
+			name = "The Ice Cream AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "The Ice Cream AppUITests";
+			productReference = 52333AD62D93B99B00F482A2 /* The Ice Cream AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52333AB32D93B99900F482A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					52333ABA2D93B99900F482A2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					52333ACB2D93B99B00F482A2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 52333ABA2D93B99900F482A2;
+					};
+					52333AD52D93B99B00F482A2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 52333ABA2D93B99900F482A2;
+					};
+				};
+			};
+			buildConfigurationList = 52333AB62D93B99900F482A2 /* Build configuration list for PBXProject "The Ice Cream App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52333AB22D93B99900F482A2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52333ABC2D93B99900F482A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52333ABA2D93B99900F482A2 /* The Ice Cream App */,
+				52333ACB2D93B99B00F482A2 /* The Ice Cream AppTests */,
+				52333AD52D93B99B00F482A2 /* The Ice Cream AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52333AB92D93B99900F482A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52333ACA2D93B99B00F482A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52333AD42D93B99B00F482A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52333AB72D93B99900F482A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52333AC82D93B99B00F482A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52333AD22D93B99B00F482A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52333ACE2D93B99B00F482A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52333ABA2D93B99900F482A2 /* The Ice Cream App */;
+			targetProxy = 52333ACD2D93B99B00F482A2 /* PBXContainerItemProxy */;
+		};
+		52333AD82D93B99B00F482A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52333ABA2D93B99900F482A2 /* The Ice Cream App */;
+			targetProxy = 52333AD72D93B99B00F482A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52333ADE2D93B99B00F482A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52333ADF2D93B99B00F482A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		52333AE12D93B99B00F482A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Ice Cream App/The_Ice_Cream_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"The Ice Cream App/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bethanylin.The-Ice-Cream-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52333AE22D93B99B00F482A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Ice Cream App/The_Ice_Cream_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"The Ice Cream App/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bethanylin.The-Ice-Cream-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		52333AE42D93B99B00F482A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bethanylin.The-Ice-Cream-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Ice Cream App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Ice Cream App";
+			};
+			name = Debug;
+		};
+		52333AE52D93B99B00F482A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bethanylin.The-Ice-Cream-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Ice Cream App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Ice Cream App";
+			};
+			name = Release;
+		};
+		52333AE72D93B99B00F482A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bethanylin.The-Ice-Cream-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "The Ice Cream App";
+			};
+			name = Debug;
+		};
+		52333AE82D93B99B00F482A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bethanylin.The-Ice-Cream-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "The Ice Cream App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52333AB62D93B99900F482A2 /* Build configuration list for PBXProject "The Ice Cream App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52333ADE2D93B99B00F482A2 /* Debug */,
+				52333ADF2D93B99B00F482A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52333AE02D93B99B00F482A2 /* Build configuration list for PBXNativeTarget "The Ice Cream App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52333AE12D93B99B00F482A2 /* Debug */,
+				52333AE22D93B99B00F482A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52333AE32D93B99B00F482A2 /* Build configuration list for PBXNativeTarget "The Ice Cream AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52333AE42D93B99B00F482A2 /* Debug */,
+				52333AE52D93B99B00F482A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52333AE62D93B99B00F482A2 /* Build configuration list for PBXNativeTarget "The Ice Cream AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52333AE72D93B99B00F482A2 /* Debug */,
+				52333AE82D93B99B00F482A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52333AB32D93B99900F482A2 /* Project object */;
+}
